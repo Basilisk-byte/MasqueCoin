@@ -19,7 +19,7 @@ const char GENESIS_COINBASE_TX_HEX[] = "";
 4. Start the daemon to print out the genesis block
 Run your daemon with --print-genesis-tx argument. It will print out the genesis block coinbase transaction hash.
 Example:
-furiouscoind --print-genesis-tx
+masquecoind --print-genesis-tx
 
 5. Insert the printed transaction hash — src/CryptoNoteConfig.h
 Copy the tx hash that has been printed out by the deamon to GENESIS_COINBASE_TX_HEX in src/CryptoNoteConfig.h
