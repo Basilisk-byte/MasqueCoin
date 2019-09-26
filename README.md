@@ -1,6 +1,6 @@
 1. Seed nodes (src/CryptoNoteConfig.h)
 
-Setup 2 ubuntu servers to act as seed nodes 2gb ram minimum and add IP addresses of seed nodes.
+Setup 2 ubuntu servers to act as seed nodes 2gb ram minimum and add IP addresses of seed nodes to src/CryptoNoteConfig.h
 
 Example:
 
